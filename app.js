@@ -19,12 +19,9 @@ function clickHandler(){
         outputDiv.innerText = translatedText;
     })
     .catch(errorHandler)
-
-
+}
 function errorHandler(){
-   errorMessage.innerText = "*Server is not working right now, try after sometime"
-}
-}
-
+    errorMessage.innerText = "*Server is not working right now, try after sometime"
+ }
 
 btnTranslate.addEventListener("click", clickHandler);
